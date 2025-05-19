@@ -16,7 +16,7 @@ const CopyButton = ({ text }) => {
     <UtilityButton
       icon={copied ? <TbCopyCheckFilled /> : <TbCopy />}
       onClick={handleCopyButtonClick}
-      color={copied ? "green" : "teal"}
+      color={copied ? "green" : "blue"}
       variant="ghost"
       tooltip={!copied ? `Copy Text` : `Text Copied`}
     />

@@ -10,7 +10,7 @@ const RecorderMicButton = ({isMicOn, onClick}) => {
     >
     <IconButton
     variant={'solid'}
-    colorScheme = 'teal'
+    colorScheme = 'blue'
     size={'lg'}
     w = '70px'
     h = '70px'

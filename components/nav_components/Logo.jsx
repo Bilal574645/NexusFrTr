@@ -2,12 +2,12 @@ import { Text, useColorMode, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
 
 const Logo = () => {
-//  const color = useColorModeValue('teal.400', 'teal.200')
+//  const color = useColorModeValue('blue.400', 'blue.200')
   return (
     <Text
     fontSize={{base: 'larger', md : 'x-large'}}
     fontWeight = {'bold'}
-    color = {'teal.500'}
+    color = {'blue.500'}
     w = 'max-content'
     alignSelf={'center'}
     >

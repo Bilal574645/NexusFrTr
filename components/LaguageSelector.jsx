@@ -19,7 +19,7 @@ const LaguageSelector = () => {
       direction={"row"}
       align="center"
       spacing={{ base: "2", md: "6" }}
-      bg="gray.50"
+      bg="blue.50"
       p={{base: '3',sm : '6',  md: '8'}}
       borderRadius="full"
       justifyContent={"space-between"}

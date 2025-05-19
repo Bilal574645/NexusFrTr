@@ -16,7 +16,7 @@ const Selection = ({
       size={{ base: "md", md: "lg" }}
       textTransform = 'capitalize'
       fontSize={{ base: "medium", md: "large", lg: 'larger' }}
-      color="gray.800"
+      color="blue.800"
       borderRadius={"full"}
       w = {{base:'32', md :'sm'}}
     >

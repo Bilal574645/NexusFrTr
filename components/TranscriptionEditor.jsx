@@ -95,7 +95,7 @@ const TranscriptionEditor = ({
   // translate the placeholder and
   const lodingIndication = (
     <CircularProgress
-      color="teal.200"
+      color="blue.200"
       thickness={"4px"}
       size="10"
       isIndeterminate
@@ -119,7 +119,7 @@ const TranscriptionEditor = ({
                 onClick={togglePlaying}
                 isLoading={isLoding}
                 variant="outline"
-                color="teal"
+                color="blue"
                 tooltip={`${!isPlaying ? "Play" : "Pause"} speech.`}
               />
               <UtilityButton
@@ -135,7 +135,7 @@ const TranscriptionEditor = ({
                 }
                 onClick={() => resetAudio(audioRef)}
                 isLoading={isLoding}
-                color="teal"
+                color="blue"
                 variant="outline"
                 tooltip={"Reset speech"}
               />
@@ -158,7 +158,7 @@ const TranscriptionEditor = ({
                   },
                   "&::-webkit-scrollbar-thumb": {
                     borderRadius: "10",
-                    bg: `gray.100`,
+                    bg: `blue.100`,
                   },
                 }}
               >

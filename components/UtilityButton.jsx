@@ -8,7 +8,7 @@ const UtilityButton = ({
   color,
   isRound = true,
   variant = "ghost",
-  loadColor = "teal.400",
+  loadColor = "blue.400",
   fontSize = "18px",
   tooltip,
   ...rest

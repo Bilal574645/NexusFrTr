@@ -9,10 +9,10 @@ const NavLink = (props) => {
         rounded={'md'}
         _hover={{
           textDecoration: 'none',
-          bg: 'gray.200',
+          bg: 'blue.200',
           color: 'black',
         }}
-        color = 'gray.600'
+        color = 'blue.600'
         alignSelf = 'center'
         fontSize={{base: 'large', md: 'large'}}
         href={link}>

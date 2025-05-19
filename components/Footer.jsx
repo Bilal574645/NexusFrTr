@@ -4,17 +4,18 @@ import React from 'react'
 const Footer = () => {
   return (
     <Box
-     bg = 'teal.800'
+     bg = 'blue.800'
      p = {6}
      w = 'full'
      mt = '4'
      textAlign={'center'}
     >
-       <Text
+       <Text className=''
        fontSize={'x-large'}
        fontWeight ='medium'
        color={'white'}
-       >Nexus_Bilal</Text>
+       fontStyle="italic"
+       >Nexus Communication</Text>
     </Box>
   )
 }

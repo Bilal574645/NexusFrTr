@@ -16,7 +16,7 @@ const NavContainer = () => {
       spacing={2}
       py={6}
       px ={4}
-      bg={"gray.50"}
+      bg={"blue.50"}
       align="center"
     >
       <Stack align={"center"}
